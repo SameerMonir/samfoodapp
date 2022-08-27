@@ -84,4 +84,15 @@ dependencies {
     //Youtube player
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.0.1'
 
+    def mockk_version = "1.12.3"
+    testImplementation "io.mockk:mockk:$mockk_version"
+    testImplementation 'androidx.arch.core:core-testing:2.1.0'
+    testImplementation 'org.mockito:mockito-core:4.3.1'
+    testImplementation 'org.mockito:mockito-inline:3.4.6'
+    testImplementation 'org.mockito.kotlin:mockito-kotlin:3.2.0'
+
+
+
+
+
 }
