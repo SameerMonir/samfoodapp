@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/etdrawable.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable-v24/ic_baseline_loop_24.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable-v24/ic_cookie.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable-v24/ic_location_on.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable-v24/ic_restaurant_menu.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable-v24/ic_search.xml" value="0.114" />
+        <entry key="app/src/main/res/font/roboto_slab.xml" value="0.13958333333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_area.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_categories.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_category.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/item_filter.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/item_list.xml" value="0.109375" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.24791666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

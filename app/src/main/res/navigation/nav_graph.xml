@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categoriesFragment">
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.example.samfoodapp.ui.fragments.CategoriesFragment"
+        android:label="CategoriesFragment" >
+        <action
+            android:id="@+id/action_categoriesFragment_to_filterFragment"
+            app:destination="@id/filterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/areaFragment"
+        android:name="com.example.samfoodapp.ui.fragments.AreaFragment"
+        android:label="AreaFragment" >
+        <action
+            android:id="@+id/action_areaFragment_to_filterFragment"
+            app:destination="@id/filterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ingrediantFragment"
+        android:name="com.example.samfoodapp.ui.fragments.IngredientFragment"
+        android:label="IngrediantFragment" >
+        <action
+            android:id="@+id/action_ingrediantFragment_to_filterFragment"
+            app:destination="@id/filterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.samfoodapp.ui.fragments.SearchFragment"
+        android:label="SearchFragment" >
+        <action
+            android:id="@+id/action_searchFragment_to_recipeFragment"
+            app:destination="@id/recipeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.example.samfoodapp.ui.fragments.FilterFragment"
+        android:label="FilterFragment" >
+        <argument
+            android:name="Filter"
+            app:argType="com.example.samfoodapp.models.FilterQuery" />
+        <action
+            android:id="@+id/action_filterFragment_to_recipeFragment"
+            app:destination="@id/recipeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recipeFragment"
+        android:name="com.example.samfoodapp.ui.fragments.RecipeFragment"
+        android:label="RecipeFragment" >
+        <argument
+            android:name="RecipeID"
+            app:argType="string"
+            android:defaultValue="Null" />
+    </fragment>
+    <fragment
+        android:id="@+id/randomFragment"
+        android:name="com.example.samfoodapp.ui.fragments.RandomFragment"
+        android:label="RandomFragment" />
+</navigation>
